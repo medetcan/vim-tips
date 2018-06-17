@@ -11,13 +11,32 @@
 * **cw** command deletes to the end of the word and drops us into insert mode.
 * **daw** command deletes the selected word.
    * **aw**  command -a word- selects text object and it includes trailing white spaces!
-* **Count <C-a>** increments the number by a **Count** 
-* **Count <C-x>** decrements the number by a **Count**
+* **Count \<C-a\>** increments the number by a **Count** 
+* **Count  \<C-x\>** decrements the number by a **Count**
 * **cW** you can use this command to change the first word.
 * **gcc** you can use this command to comment out the selected line.
 * **gcap** will comment out the current paragraph.
 * **g{G** will comment out to the begining of the selected line to the end of the file.
 * **gg=G** indents the whole file accordingly the specified language rules.
+* **\<C-o\>** switch from insert mode to insert normal mode.
+* **zz** command redraws the screen with the current line in the middle.
+* **J** command joins the current line and next line together.
+* **\<C-w\>** command deletes one word backward in insert mode.
+* **\<C-u\>** command deletes starting from the begining of the line to the end of the cursor. (??)
+* **\<C-h\>** deletes one characterat a time going backward.
+* **R** switch from normal mode to replace mode.
+* **gR** switches to virtual replace mode and treats tab characters as though it consisted of spaces.
+* **r{char}** single shot version of the replace mode. Switches back to normal mode after the execution of the command finishes.
+* **gR{char}** single shot version of the virtual replace mode.
+* **v** command switches to character wise visual mode.
+* **V** command switches to line wise visual mode.
+* **\<C-v\>** command switches to block wise visual mode.
+* **\<C-g\>** command switches to select mode.
+* **gv** reselect the last visual selection.
+* **o** navigates to end of the highlighted text in visual mode.
+* **gU{motion}** gU command combined with the motion changes every selected characters to their respective uppercase equivalents.
+* **U** command in visual mode changes each selected characters to their respective uppercase equivalents.
+* **r{char}** replace each selection with the char.
 # Operator Tables
    * **c** change
    * **d** delete
