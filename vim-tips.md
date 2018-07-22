@@ -37,6 +37,9 @@
 * **gU{motion}** gU command combined with the motion changes every selected characters to their respective uppercase equivalents.
 * **U** command in visual mode changes each selected characters to their respective uppercase equivalents.
 * **r{char}** replace each selection with the char.
+* **:[range]delete[reg{i}]** delete specified lines into register
+* **:[range]yank[reg{i}]** yank specified lines into register
+* **
 # Operator Tables
    * **c** change
    * **d** delete
