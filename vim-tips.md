@@ -11,7 +11,7 @@
 * **cw** command deletes to the end of the word and drops us into insert mode.
 * **daw** command deletes the selected word.
    * **aw**  command -a word- selects text object and it includes trailing white spaces!
-* **Count \<C-a\>** increments the number by a **Count** 
+* **Count \<C-a\>** increments the number by a **Count**
 * **Count  \<C-x\>** decrements the number by a **Count**
 * **cW** you can use this command to change the first word.
 * **gcc** you can use this command to comment out the selected line.
@@ -39,7 +39,11 @@
 * **r{char}** replace each selection with the char.
 * **:[range]delete[reg{i}]** delete specified lines into register
 * **:[range]yank[reg{i}]** yank specified lines into register
-* **
+* **:[range]substitute/{original string}/{replacement string}** substitutes specified string with given replacement string in command mode
+* **<C-r\>{register}** put contents of the specified register into command line
+* **<C-v\>** inserts chracter that are not found on the keyboard
+* **.** dot represents the current line in command mode
+* **%** has special meaning in command mode, it means act upon whole file.
 # Operator Tables
    * **c** change
    * **d** delete
