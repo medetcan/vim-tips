@@ -45,6 +45,7 @@
 * **.** dot represents the current line in command mode
 * **%** has special meaning in command mode, it means act upon whole file.
 * **!** we can invoke external commands from vim prefixing commands with bang symbol in command mode
+* **shell** and **terminal** you can use these two commands in command mode to start interactive shell session without leaving vim. **exit** commands kills the shell returns us to vim.
 # Operator Tables
    * **c** change
    * **d** delete
