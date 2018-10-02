@@ -44,6 +44,7 @@
 * **<C-v\>** inserts chracter that are not found on the keyboard
 * **.** dot represents the current line in command mode
 * **%** has special meaning in command mode, it means act upon whole file.
+* **!** we can invoke external commands from vim prefixing commands with bang symbol in command mode
 # Operator Tables
    * **c** change
    * **d** delete
