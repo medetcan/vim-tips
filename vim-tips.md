@@ -27,7 +27,7 @@
 * **R** switch from normal mode to replace mode.
 * **gR** switches to virtual replace mode and treats tab characters as though it consisted of spaces.
 * **r{char}** single shot version of the replace mode. Switches back to normal mode after the execution of the command finishes.
-* **gR{char}** single shot version of the virtual replace mode.
+* **gr{char}** single shot version of the virtual replace mode.
 * **v** command switches to character wise visual mode.
 * **V** command switches to line wise visual mode.
 * **\<C-v\>** command switches to block wise visual mode.
@@ -46,6 +46,8 @@
 * **%** has special meaning in command mode, it means act upon whole file.
 * **!** we can invoke external commands from vim prefixing commands with bang symbol in command mode
 * **shell** and **terminal** you can use these two commands in command mode to start interactive shell session without leaving vim. **exit** commands kills the shell returns us to vim.
+* **S** deletes the current line in normal mode and drops us into insert mode
+* **gd** go to definition
 # Operator Tables
    * **c** change
    * **d** delete
